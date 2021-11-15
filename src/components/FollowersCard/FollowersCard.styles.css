@@ -1,0 +1,40 @@
+.followers-card{
+    display: flex;
+    justify-content: center;
+    height: 80px;
+    align-items: center;
+    margin: 5px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 0 5px;
+    background-color: #4E9F3D;
+    width: 80%;
+}
+
+.followers-card>img{
+    width: 70px;
+    border-radius: 50%;
+}
+
+.vermas{
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: black;
+    color: white;
+    width: 80px;
+}
+
+.followers-card>h4{
+    color: white;
+    font-size: 1rem;
+    width: 50%;
+    text-align: center;
+}
+
+@media screen and (min-width: 700px){
+
+    .followers-card{
+        margin: 5px auto;
+        width: 30%;
+    }
+}
