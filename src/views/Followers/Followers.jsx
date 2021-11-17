@@ -21,7 +21,7 @@ const Followers = () => {
 
         requestApi()
 
-    }, [])
+    }, [name])
 
     return (
         <div>

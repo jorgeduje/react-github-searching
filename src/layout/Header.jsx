@@ -17,9 +17,9 @@ const Header = () => {
     return (
         <>
             <div className="header-container">
-                <a href="https://github.com/"> <i class="bi bi-github"></i></a>
+                <a href="https://github.com/"> <i className="bi bi-github"></i></a>
                 <h2>Proyect Github</h2>
-                <button onClick={handlerMenu}><i class="bi bi-list colore"></i></button>
+                <button onClick={handlerMenu}><i className="bi bi-list colore"></i></button>
 
             </div>
 
