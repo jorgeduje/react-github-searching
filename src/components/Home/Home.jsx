@@ -20,7 +20,7 @@ const Home = () => {
         const response = await fetch (`https://api.github.com/users/${searchValue}`)
         const result = await response.json()
         setDataApi(result)
-        console.log(dataApi)
+        
         
         
     }

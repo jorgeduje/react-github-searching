@@ -6,7 +6,7 @@ const FollowersCard = ({userName, image}) => {
 
     return (
         <div className="followers-card">
-            <img src={image} alt={`image of ${userName}`} />
+            <img src={image} alt={`${userName}`} />
             <h4>{userName}</h4>
             <Link to={`/users/${userName}`}><button className="vermas">See more!</button></Link>
         </div>

@@ -26,13 +26,13 @@ const Header = () => {
             <div className={show ? "menuNav" : "notVisible"}>
                 <ul>
                     <li onClick={()=> navigate('/')}>
-                        <a class="fa fa-home"/><span>Home</span>
+                      home
                     </li>
                     <li onClick={()=> navigate(- 1)}>
-                        <a href="#" class="previous round">&#8249;</a><span>previous</span>
+                     previus
                     </li>
                     <li onClick={()=> navigate(+ 1)}>
-                        <span className="onlySpan">Next</span><a href="#" class="next round">&#8250;</a>
+                     next
                     </li>
                 </ul>
         </div>

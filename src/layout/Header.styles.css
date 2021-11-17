@@ -62,7 +62,7 @@ i{
     margin-top: 0.5rem;
 }
 
-.menuNav>ul>li>span{
+.menuNav>ul>li{
     color: #4E9F3D;
     font-weight: bolder;
     margin-left: 0.3rem;
